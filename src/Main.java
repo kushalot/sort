@@ -29,6 +29,7 @@ public class Main {
     }
     static void message (String s){
         System.out.println(s);
+        System.out.print("xxaxaxaxa");
     }
 
 
