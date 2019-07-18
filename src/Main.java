@@ -27,7 +27,7 @@ public class Main {
         for (int i = 0;i < size;i++)
             System.out.print(nums[i]+" ");
     }
-    public static void message (String s){
+    static void message (String s){
         System.out.println(s);
     }
 
