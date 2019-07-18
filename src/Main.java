@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+        message("polnaja jopa  s noutom");
         Scanner scan = new Scanner(System.in);
         System.out.println("Введи размер массива");
         int size = scan.nextInt();
@@ -25,8 +26,10 @@ public class Main {
         System.out.println(" ");
         for (int i = 0;i < size;i++)
             System.out.print(nums[i]+" ");
-
-
     }
+    public static void message (String s){
+        System.out.println(s);
+    }
+
 
 }
