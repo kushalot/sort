@@ -33,7 +33,7 @@ public class Main {
             while (array[j] > opora) {
                 j--;
             }
-
+//
             if (i <= j) {//меняем местами
                 int temp = array[i];
                 array[i] = array[j];
