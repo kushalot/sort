@@ -1,4 +1,5 @@
 import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         int[] x = { 8, 0, 4, 7, 3, 7, 10, 12, -3 };
@@ -41,6 +42,7 @@ public class Main {
                 i++;
                 j--;
             }
+            System.out.println(Arrays.toString(array));
         }
 
         // вызов рекурсии для сортировки левой и правой части
